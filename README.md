@@ -16,4 +16,4 @@ cd into root directory ( 'changemaker/' ), then type: cucumber
 
 * Source is in **lib/changemaker/**.
 * **lib/changemaker.rb** is just some boot-strapping for cucumber.
-* features/support is just boot-strapping for cucumber.
+* **features/support/** again, boot-strapping for cucumber.

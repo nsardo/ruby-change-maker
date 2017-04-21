@@ -1,0 +1,21 @@
+#!/usr/bin/env ruby
+# Nicholas Sardo <ruby.code.artist@gmail.com>
+ 
+$LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
+require 'changemaker/change'
+
+cm = ChangeMaker::Change.new
+system 'clear'
+
+loop do
+  puts "Enter currency amount as floating point, \n(i.e 0.75 for 75 cents or 1.25 for a dollar twenty-five)\nor 'q' to quit: "
+  amt = gets
+  break if amt.match(/q/) 
+  
+  dollars, cents = cm.make_change(amt)
+  puts "\nYour change is: \n\n"
+  puts "BILLS: #{dollars}\n"
+  puts "COINS: #{cents}\n\n"
+end
+ 
+ 

@@ -34,11 +34,11 @@ cd into bin/ and type: './changemaker' (the file is already chmod'd)
 ### To Run Tests:
 ```
 (require's cucumber)
-cd into root directory ( 'changemaker/' ), then type: cucumber
+cd into root directory ( 'ruby-change-maker/' ), then type: cucumber
 ```    
 
 ### NOTES:
 
-* Source is in **lib/changemaker/**.
-* **lib/changemaker.rb** is just some boot-strapping for cucumber.
+* Source is in **lib/rubychangemaker/**.
+* **lib/rubychangemaker.rb** is just some boot-strapping for cucumber.
 * **features/support/** again, boot-strapping for cucumber.

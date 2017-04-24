@@ -1,4 +1,5 @@
-
+# Ruby Change Maker
+Given a currency amount (assuming US Currency ) returns the amount of change using the least amount of currency.
 ## ALL EXPLANATIONS ARE ASSUMING OS X OR LINUX
 
 ### To Run:

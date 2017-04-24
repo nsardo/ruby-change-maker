@@ -1,5 +1,9 @@
+
+[![Gem Version](https://badge.fury.io/rb/RubyChangeMaker.svg)](https://badge.fury.io/rb/RubyChangeMaker)
+
 # Ruby Change Maker
-Given a currency amount (assuming US Currency ) expressed as a floating point number ( i.e. 1.25 or 0.75 ) returns that amount expressed as the least amount of change using the least number of bills, coins, or combination of bills and coins.
+Given a currency amount (assuming US Currency ) expressed as a floating point number ( i.e. 1.25 or 0.75 ) 
+returns that amount expressed as the least amount of change using the least number of bills, coins, or combination of bills and coins.
 
 ## To use as a gem:
 

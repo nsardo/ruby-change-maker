@@ -1,5 +1,5 @@
 # Ruby Change Maker
-Given a currency amount (assuming US Currency ) returns the amount of change using the least amount of currency.
+Given a currency amount (assuming US Currency ) returns that amount expressed as the least amount of change using the least number of bills, coins, or combination of bills and coins.
 ## ALL EXPLANATIONS ARE ASSUMING OS X OR LINUX
 
 ### To Run:

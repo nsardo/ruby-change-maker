@@ -1,17 +1,17 @@
 # Nicholas Sardo <ruby.code.artist@gmail.com>
 
 Given(/^I have started the program$/) do
-  @c = ChangeMaker::Change.new
+  @c = RubyChangeMaker::Change.new
 end
 
 # all current USD Bills
 Then(/^available for use should be all current usd (\d+) and <coins>$/) do |arg1|
-  ChangeMaker::Change::BILLS.include?(arg1)
+  RubyChangeMaker::Change::BILLS.include?(arg1)
 end
 
 # all current USD Coins
 Then(/^available for use should be all current usd <bills> and (\d+)$/) do |arg1|
-  ChangeMaker::Change::COINS.include?(arg1)
+  RubyChangeMaker::Change::COINS.include?(arg1)
 end
 
 #BILLS: 2, COINS: 0

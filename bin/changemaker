@@ -2,9 +2,9 @@
 # Nicholas Sardo <ruby.code.artist@gmail.com>
  
 $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
-require 'changemaker/change'
+require 'rubychangemaker/change'
 
-cm = ChangeMaker::Change.new
+cm = RubyChangeMaker::Change.new
 system 'clear'
 
 loop do

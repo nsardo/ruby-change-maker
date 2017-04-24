@@ -3,7 +3,7 @@
 ###
 # Return the change to be tendered for a given amount in the least denomination of currency
 ###
-module ChangeMaker
+module RubyChangeMaker
   
   class Change
     

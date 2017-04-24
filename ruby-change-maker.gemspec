@@ -7,6 +7,6 @@ Gem::Specification.new do |s|
   s.description	  = 'Given an amount of US Currency, returns it as the smallest number of bills, coins, or combination'
   s.author	      = 'Nicholas Sardo'
   s.email	        = 'nsardo@aol.com'
-  s.files	        = ['lib/']
+  s.files	        = ['lib/rubychangemaker/rubychangemaker.rb']
   s.homepage	    = 'https://rubygems.org'
 end

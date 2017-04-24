@@ -1,2 +1,2 @@
 # Nicholas Sardo <ruby.code.artist@gmail.com>
-require 'rubychangemaker/change'
+require 'rubychangemaker/rubychangemaker'
